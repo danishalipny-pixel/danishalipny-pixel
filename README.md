@@ -1,13 +1,13 @@
 <div align="center">
 
   <!-- Header Banner -->
-  <img src="assets/header-banner.svg" alt="Danish Rashid - Full Stack & AI Developer" width="100%" />
+  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/header-banner.svg" alt="Danish Rashid - Full Stack & AI Developer" width="100%" />
 
   <br /><br />
 
   <!-- Circular Profile Avatar with Glowing Tech Border -->
   <a href="https://github.com/danishalipny-pixel">
-    <img src="assets/danish-rashid-avatar.png" alt="Danish Rashid" width="180" height="180" />
+    <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/danish-rashid-avatar.png" alt="Danish Rashid" width="180" height="180" />
   </a>
 
   <br />
@@ -55,7 +55,7 @@
 </div>
 
 <p align="center">
-  <img src="assets/divider.svg" alt="Divider" width="100%" />
+  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
 </p>
 
 ---
@@ -83,7 +83,7 @@ Status: Open for High-Impact Projects & Opportunities
 * 💾 **Reliable Data Persistence**: Designing optimized relational and NoSQL database schemas for speed, integrity, and scalability.
 
 <p align="center">
-  <img src="assets/divider.svg" alt="Divider" width="100%" />
+  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
 </p>
 
 ---
@@ -153,7 +153,7 @@ Modern tooling ensuring speed, precision, and frictionless collaboration:
 </p>
 
 <p align="center">
-  <img src="assets/divider.svg" alt="Divider" width="100%" />
+  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
 </p>
 
 ---
@@ -169,7 +169,7 @@ Artificial intelligence is reshaping the digital frontier. I focus on developing
 * 🔌 **Backend AI Integrations**: Establishing secure, rate-limited, and token-optimized backend gateways for OpenAI and modern LLM APIs.
 
 <p align="center">
-  <img src="assets/divider.svg" alt="Divider" width="100%" />
+  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
 </p>
 
 ---
@@ -199,7 +199,7 @@ I engineer digital solutions across the complete development lifecycle — guara
 * **APIs**: Documented, standardized REST APIs engineered for fast response times.
 
 <p align="center">
-  <img src="assets/divider.svg" alt="Divider" width="100%" />
+  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
 </p>
 
 ---
@@ -306,7 +306,7 @@ Real, verified repositories from my active GitHub profile showcasing full-stack 
 </table>
 
 <p align="center">
-  <img src="assets/divider.svg" alt="Divider" width="100%" />
+  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
 </p>
 
 ---
@@ -339,7 +339,7 @@ Real, verified repositories from my active GitHub profile showcasing full-stack 
 </div>
 
 <p align="center">
-  <img src="assets/divider.svg" alt="Divider" width="100%" />
+  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
 </p>
 
 ---
@@ -354,7 +354,7 @@ Real, verified repositories from my active GitHub profile showcasing full-stack 
 * 📱 **Modern High-Converting Websites**: Creating ultra-responsive, mobile-first websites optimized for speed and SEO.
 
 <p align="center">
-  <img src="assets/divider.svg" alt="Divider" width="100%" />
+  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
 </p>
 
 ---
@@ -377,7 +377,7 @@ A disciplined, continuous cycle of growth, technical mastery, and shipping real-
 * **04. Optimize**: Continuous profiling, code refactoring, speed optimization, and workflow automation.
 
 <p align="center">
-  <img src="assets/divider.svg" alt="Divider" width="100%" />
+  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
 </p>
 
 ---
@@ -398,7 +398,7 @@ Available for contract, freelance, and dedicated engineering roles:
 | 🛠️ **Website Maintenance** | Continuous support, feature enhancements & updates | Security Updates, Dependency Upgrades, Optimization |
 
 <p align="center">
-  <img src="assets/divider.svg" alt="Divider" width="100%" />
+  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
 </p>
 
 ---
