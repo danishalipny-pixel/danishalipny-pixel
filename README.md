@@ -1,13 +1,13 @@
 <div align="center">
 
-  <!-- ==================== SIGNATURE HERO BANNER ==================== -->
+  <!-- ==================== 1. HERO BANNER & PROFESSIONAL INTRODUCTION ==================== -->
   <a href="https://github.com/danishalipny-pixel">
     <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/danish-rashid-hero.svg" alt="DANISH RASHID — Full Stack Developer & AI Developer" width="100%" />
   </a>
 
   <br /><br />
 
-  <!-- ==================== VIP PORTRAIT PRESENTATION ==================== -->
+  <!-- VIP PORTRAIT PRESENTATION -->
   <table border="0" cellpadding="0" cellspacing="0">
     <tr>
       <td align="center">
@@ -18,24 +18,24 @@
     </tr>
   </table>
 
-  <!-- ==================== NAME & PROFESSIONAL TITLE ==================== -->
+  <!-- NAME & PROFESSIONAL TITLE -->
   <h1 align="center">DANISH RASHID</h1>
   <p align="center">
-    <b>⚡ Full Stack Developer &bull; AI Developer 🤖</b>
+    <b>⚡ Full Stack Developer &amp; AI Developer 🤖</b>
   </p>
 
   <p align="center">
-    <i>&ldquo;Where Full Stack Engineering Meets Artificial Intelligence.&rdquo;</i>
+    <i>&ldquo;Building Intelligent Digital Experiences. Turning Ideas Into Reality.&rdquo;</i>
   </p>
 
-  <!-- ==================== DYNAMIC SKILLS TYPING ANIMATION ==================== -->
+  <!-- DYNAMIC SKILLS TYPING ANIMATION -->
   <p align="center">
     <a href="https://github.com/danishalipny-pixel">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=00D2FF&center=true&vCenter=true&width=640&lines=Full+Stack+Developer+%26+System+Architect;AI+Engineer+%26+Intelligent+Agent+Builder;Building+Intelligent+AI-Powered+Web+Apps;Python+%7C+Flask+%7C+React+19+%7C+Node+%7C+Laravel;Turning+Complex+Challenges+Into+Scalable+Code" alt="Danish Rashid - Dynamic Skills Typing" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=00D2FF&center=true&vCenter=true&width=640&lines=Full+Stack+Developer+%26+AI+Developer;Building+Intelligent+AI-Powered+Web+Apps;Python+%7C+Flask+%7C+React+19+%7C+Node+%7C+Laravel;Architecting+Autonomous+AI+Agents+%26+LLMs;Turning+Ideas+Into+Intelligent+Digital+Experiences" alt="Danish Rashid - Dynamic Skills Typing" />
     </a>
   </p>
 
-  <!-- ==================== QUICK VIP ACTION BUTTONS ==================== -->
+  <!-- QUICK ACTION BUTTONS -->
   <p align="center">
     <a href="https://github.com/danishalipny-pixel">
       <img src="https://img.shields.io/badge/GitHub-Profile-070B19?style=for-the-badge&logo=github&logoColor=00D2FF" alt="GitHub Profile" />
@@ -66,22 +66,22 @@
 
 ---
 
-## 🧑‍💻 About Me
+## 🧑‍💻 2. About Me
 
-Hello! I'm **Danish Rashid**, an innovative **Full Stack Developer** and **AI Developer** dedicated to building scalable web applications, modern digital products, and intelligent autonomous systems.
+Hello! I'm **Danish Rashid**, an innovative **Full Stack Developer &amp; AI Developer** dedicated to building scalable web applications, modern digital products, and intelligent autonomous systems.
 
 I work at the convergence of robust software engineering and artificial intelligence — engineering responsive frontend user interfaces, high-throughput backend APIs, structured database schemas, and autonomous AI agents powered by modern LLMs.
 
 ```yaml
 Developer: Danish Rashid
-Profession: Full Stack Developer + AI Developer
+Profession: Full Stack Developer & AI Developer
 Core Philosophy: Clean Architecture • Autonomous AI • Production Scalability
 Primary Focus: Enterprise Web Applications, Autonomous AI Agents & REST APIs
 Global Availability: Open for Worldwide Remote Contracts & High-Impact Engineering
 Location: Lahore • Available Worldwide (Remote)
 ```
 
-### 🎯 Core Engineering Pillars
+### 🎯 Core Engineering Focus
 * 🌐 **Full Stack Web Engineering**: Developing seamless, end-to-end web applications with modern frontend frameworks and reliable backend ecosystems.
 * 🤖 **AI & Autonomous Agents**: Architecting self-directing agents, dynamic prompt pipelines, and multi-turn conversational systems powered by OpenAI APIs and Python.
 * ⚙️ **Process Automation**: Constructing intelligent background scripts and automation workflows that eliminate repetitive manual tasks.
@@ -94,7 +94,43 @@ Location: Lahore • Available Worldwide (Remote)
 
 ---
 
-## ⚡ Tech Stack & Tools
+## 🌐 3. Full Stack Development
+
+I engineer complete web solutions across the entire technical lifecycle — guaranteeing seamless cohesion from intuitive user interfaces down to secure APIs, robust databases, and production deployments:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/tech-architecture.svg" alt="Full Stack Architecture Pipeline" width="100%" />
+</p>
+
+* **Frontend Architecture**: Dynamic single-page applications, component-driven design systems, and responsive layouts across all mobile, tablet, and desktop viewports.
+* **API Middleware**: Standardized, documented REST endpoints with strict CORS policies, structured JSON payloads, and token authentication.
+* **Backend Core**: Clean MVC patterns, decoupled service layers, validation middleware, and secure business logic in Python, Node.js, and PHP/Laravel.
+* **Databases & Persistence**: Relational (MySQL, SQLite) and NoSQL (MongoDB, Firebase) schemas optimized for speed, real-time sync, and LLM embedding integrations.
+* **Deployment & CI/CD**: Modern Git workflows, automated testing, production performance tuning, and asset optimization.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
+</p>
+
+---
+
+## 🤖 4. Artificial Intelligence & Agentic AI Learning
+
+Artificial intelligence is reshaping software development. I develop production-grade AI solutions and actively pursue agentic AI engineering that moves beyond static prompts into dynamic reasoning, tool invocation, and real-world utility:
+
+* 🧠 **Autonomous AI Agents & Workflows**: Engineering self-directing agents equipped with function calling, step-by-step reasoning chains, and persistent task execution.
+* 🌐 **AI-Powered Web Applications**: Embedding intelligence directly into web platforms via Python backends (Flask/FastAPI) and responsive frontend interfaces.
+* 💬 **Context-Aware Intelligent Chatbots**: Crafting conversational assistants with multi-turn session persistence, custom system personas, dark-mode interfaces, and conversation logging (e.g. Gradio & Web Chat).
+* ⚙️ **AI Automation & Scripting**: Streamlining manual operations, document handling, and data transformation using automated Python pipelines.
+* 🔌 **Backend AI Gateways**: Establishing secure, rate-limited, and token-optimized backend gateways for OpenAI and modern LLM models.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
+</p>
+
+---
+
+## ⚡ 5. Technical Skills
 
 ### 🌐 Frontend Engineering
 Modern, accessible, pixel-perfect user interfaces engineered for speed across all viewport dimensions:
@@ -164,44 +200,8 @@ Modern toolchains ensuring speed, version control, and streamlined delivery:
 
 ---
 
-## 🌐 Full Stack Development 🚀
-
-I engineer complete web solutions across the entire technical lifecycle — guaranteeing seamless cohesion from intuitive user interfaces down to secure APIs, robust databases, and cloud deployments:
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/tech-architecture.svg" alt="Full Stack Architecture Pipeline" width="100%" />
-</p>
-
-* **Frontend**: Dynamic single-page applications, component-driven design systems, and responsive layouts across all mobile and desktop devices.
-* **APIs**: Standardized, documented REST endpoints with strict CORS, structured JSON responses, and token authentication.
-* **Backend**: Clean MVC patterns, decoupled services, validation middleware, and secure business logic.
-* **Databases & AI**: Relational and NoSQL schemas optimized for speed, real-time sync, and LLM embedding integrations.
-* **Deployment**: Modern Git workflows, automated testing, production performance tuning, and asset optimization.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
-</p>
-
----
-
-## 🤖 AI & Intelligent Systems 🤖
-
-Artificial intelligence is reshaping the digital frontier. I develop production-grade AI solutions that move beyond simple prompts into dynamic reasoning, agentic tool invocation, and real-world utility:
-
-* 🧠 **Autonomous AI Agents & Workflows**: Engineering self-directing agents equipped with function calling, step-by-step reasoning chains, and persistent task execution.
-* 🌐 **AI-Powered Web Applications**: Embedding intelligence directly into web platforms via Python backends (Flask/FastAPI) and responsive frontend interfaces.
-* 💬 **Context-Aware Intelligent Chatbots**: Crafting conversational assistants with multi-turn session persistence, custom system personas, dark-mode interfaces, and conversation logging (e.g. Gradio & Web Chat).
-* ⚙️ **AI Automation & Scripting**: Streamlining manual operations, document handling, and data transformation using automated Python pipelines.
-* 🔌 **Backend AI Integrations & API Gateways**: Establishing secure, rate-limited, and token-optimized backend gateways for OpenAI and modern LLM models.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
-</p>
-
----
-
 <a id="featured-projects"></a>
-## 🚀 Featured Projects
+## 🚀 6. Featured Projects
 
 Real, verified repositories directly from my active GitHub profile showcasing full-stack capabilities, AI implementations, and frontend craftsmanship:
 
@@ -308,7 +308,7 @@ Real, verified repositories directly from my active GitHub profile showcasing fu
 
 ---
 
-## 📊 GitHub Analytics & Activity
+## 📊 7. GitHub Statistics & Activity
 
 <div align="center">
   <table border="0">
@@ -341,22 +341,7 @@ Real, verified repositories directly from my active GitHub profile showcasing fu
 
 ---
 
-## 🎯 Current Focus
-
-* ⚡ **Production-Grade Full Stack Applications**: Architecting robust web applications featuring modern React 19 frontends and Python/Node backends.
-* 🤖 **Autonomous AI Agents**: Experimenting with multi-agent coordination, external function calling, and structured output generation.
-* 💬 **Enterprise AI Chatbots**: Building conversational interfaces with custom personas, session memory, and dark-mode UX.
-* ⚙️ **Workflow Automation Systems**: Automating manual operations using resilient Python background services.
-* 🔌 **High-Throughput REST APIs**: Implementing strict input validation, token rate-limiting, and microservices architecture.
-* 📱 **Modern High-Converting Websites**: Creating ultra-responsive, mobile-first websites optimized for speed and SEO.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
-</p>
-
----
-
-## 📈 Developer Journey
+## 📈 8. Current Learning Journey & Focus
 
 A disciplined, continuous cycle of learning, engineering, and shipping real-world value:
 
@@ -368,10 +353,12 @@ A disciplined, continuous cycle of learning, engineering, and shipping real-worl
   └──────────────┘       └──────────────┘       └──────────────┘       └──────────────┘
 ```
 
-* **01. Learn**: Constantly staying at the forefront of AI models, API updates, and cutting-edge web frameworks.
-* **02. Build**: Translating theoretical knowledge into clean, tested, functional codebases and intelligent systems.
-* **03. Deploy**: Shipping applications to live servers and repositories with security and clean structure.
-* **04. Optimize**: Continuous profiling, code refactoring, speed optimization, and workflow automation.
+* ⚡ **Production-Grade Full Stack Applications**: Architecting robust web applications featuring modern React 19 frontends and Python/Node backends.
+* 🤖 **Autonomous AI Agents & Multi-Agent Systems**: Experimenting with multi-agent coordination, external function calling, and structured output generation.
+* 💬 **Enterprise AI Chatbots**: Building conversational interfaces with custom personas, session memory, and dark-mode UX.
+* ⚙️ **Workflow Automation Systems**: Automating manual operations using resilient Python background services.
+* 🔌 **High-Throughput REST APIs**: Implementing strict input validation, token rate-limiting, and microservices architecture.
+* 📱 **Modern High-Converting Websites**: Creating ultra-responsive, mobile-first websites optimized for speed and SEO.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
@@ -379,7 +366,7 @@ A disciplined, continuous cycle of learning, engineering, and shipping real-worl
 
 ---
 
-## 💼 What I Can Build (Services)
+## 🤝 9. Contact & Professional Links
 
 Available for contract, freelance, and dedicated engineering roles:
 
@@ -394,20 +381,14 @@ Available for contract, freelance, and dedicated engineering roles:
 | 📱 **Responsive Web Apps** | Pixel-perfect interfaces that look stunning on every screen | Mobile-First Layouts, Cross-Browser Compatibility |
 | 🛠️ **Website Maintenance** | Continuous support, feature enhancements & updates | Security Updates, Dependency Upgrades, Optimization |
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/danishalipny-pixel/danishalipny-pixel/main/assets/divider.svg" alt="Divider" width="100%" />
-</p>
-
----
-
-## 🤝 Let's Work Together
+<br />
 
 <div align="center">
 
   <h2>HAVE AN IDEA? LET'S BUILD SOMETHING EXTRAORDINARY.</h2>
 
   <p>
-    <i>&ldquo;Building modern web applications and exploring intelligent AI solutions that turn ideas into useful digital experiences.&rdquo;</i>
+    <i>&ldquo;Building Intelligent Digital Experiences. Turning Ideas Into Reality.&rdquo;</i>
   </p>
 
   <br />
