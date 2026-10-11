@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="100%" height="220">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070E22" />
+      <stop offset="100%" stop-color="#030612" />
+    </linearGradient>
+
+    <linearGradient id="flow-arrow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D2FF" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+
+    <pattern id="arch-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.5" stroke-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <!-- Container Base -->
+  <rect width="960" height="220" rx="14" fill="#02040A" />
+  <rect width="960" height="220" rx="14" fill="url(#arch-grid)" />
+  <rect width="960" height="220" rx="14" fill="none" stroke="#1E3A8A" stroke-width="1.2" opacity="0.6" />
+
+  <!-- STAGE 1: FRONTEND -->
+  <g transform="translate(24, 25)">
+    <rect width="168" height="170" rx="10" fill="url(#card-bg)" stroke="#00D2FF" stroke-width="1.2" stroke-opacity="0.7" />
+    <rect x="0" y="0" width="168" height="4" rx="2" fill="#00D2FF" />
+    <circle cx="24" cy="28" r="8" fill="#00D2FF" fill-opacity="0.15" />
+    <text x="24" y="32" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800" fill="#00D2FF" text-anchor="middle">1</text>
+    <text x="40" y="32" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">FRONTEND</text>
+    <line x1="16" y1="46" x2="152" y2="46" stroke="#1E293B" stroke-width="1" />
+    <text x="16" y="68" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#60A5FA">• React 19 &amp; Vite</text>
+    <text x="16" y="90" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#94A3B8">• JavaScript (ES6+)</text>
+    <text x="16" y="112" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#94A3B8">• HTML5 &amp; CSS3</text>
+    <text x="16" y="134" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#94A3B8">• Bootstrap 5 / Tailwind</text>
+    <text x="16" y="156" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#38BDF8">Fluid Interactive UX</text>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <g transform="translate(196, 100)">
+    <line x1="0" y1="10" x2="14" y2="10" stroke="url(#flow-arrow)" stroke-width="2" />
+    <polygon points="14,6 20,10 14,14" fill="#00D2FF" />
+  </g>
+
+  <!-- STAGE 2: APIS & GATEWAY -->
+  <g transform="translate(220, 25)">
+    <rect width="168" height="170" rx="10" fill="url(#card-bg)" stroke="#2563EB" stroke-width="1.2" stroke-opacity="0.7" />
+    <rect x="0" y="0" width="168" height="4" rx="2" fill="#2563EB" />
+    <circle cx="24" cy="28" r="8" fill="#2563EB" fill-opacity="0.2" />
+    <text x="24" y="32" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800" fill="#60A5FA" text-anchor="middle">2</text>
+    <text x="40" y="32" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">RESTFUL APIS</text>
+    <line x1="16" y1="46" x2="152" y2="46" stroke="#1E293B" stroke-width="1" />
+    <text x="16" y="68" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#60A5FA">• Secure Endpoints</text>
+    <text x="16" y="90" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#94A3B8">• JSON Payloads</text>
+    <text x="16" y="112" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#94A3B8">• CORS &amp; Auth Handlers</text>
+    <text x="16" y="134" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#94A3B8">• Postman Verified</text>
+    <text x="16" y="156" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#38BDF8">High-Speed Middle</text>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <g transform="translate(392, 100)">
+    <line x1="0" y1="10" x2="14" y2="10" stroke="url(#flow-arrow)" stroke-width="2" />
+    <polygon points="14,6 20,10 14,14" fill="#2563EB" />
+  </g>
+
+  <!-- STAGE 3: BACKEND CORE -->
+  <g transform="translate(416, 25)">
+    <rect width="168" height="170" rx="10" fill="url(#card-bg)" stroke="#7C3AED" stroke-width="1.2" stroke-opacity="0.7" />
+    <rect x="0" y="0" width="168" height="4" rx="2" fill="#7C3AED" />
+    <circle cx="24" cy="28" r="8" fill="#7C3AED" fill-opacity="0.2" />
+    <text x="24" y="32" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800" fill="#A78BFA" text-anchor="middle">3</text>
+    <text x="40" y="32" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">BACKEND CORE</text>
+    <line x1="16" y1="46" x2="152" y2="46" stroke="#1E293B" stroke-width="1" />
+    <text x="16" y="68" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#A78BFA">• Python &amp; Flask</text>
+    <text x="16" y="90" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#94A3B8">• Node.js / Express</text>
+    <text x="16" y="112" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#94A3B8">• PHP &amp; Laravel</text>
+    <text x="16" y="134" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#94A3B8">• Clean MVC Patterns</text>
+    <text x="16" y="156" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#C084FC">Scalable Architecture</text>
+  </g>
+
+  <!-- Arrow 3 -> 4 -->
+  <g transform="translate(588, 100)">
+    <line x1="0" y1="10" x2="14" y2="10" stroke="url(#flow-arrow)" stroke-width="2" />
+    <polygon points="14,6 20,10 14,14" fill="#7C3AED" />
+  </g>
+
+  <!-- STAGE 4: DATABASE & AI -->
+  <g transform="translate(612, 25)">
+    <rect width="168" height="170" rx="10" fill="url(#card-bg)" stroke="#00D2FF" stroke-width="1.2" stroke-opacity="0.7" />
+    <rect x="0" y="0" width="168" height="4" rx="2" fill="#00D2FF" />
+    <circle cx="24" cy="28" r="8" fill="#00D2FF" fill-opacity="0.2" />
+    <text x="24" y="32" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800" fill="#38BDF8" text-anchor="middle">4</text>
+    <text x="40" y="32" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">DATA &amp; AI LAYER</text>
+    <line x1="16" y1="46" x2="152" y2="46" stroke="#1E293B" stroke-width="1" />
+    <text x="16" y="68" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#38BDF8">• OpenAI LLM Models</text>
+    <text x="16" y="90" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#94A3B8">• AI Autonomous Agents</text>
+    <text x="16" y="112" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#94A3B8">• MySQL &amp; MongoDB</text>
+    <text x="16" y="134" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#94A3B8">• SQLite &amp; Firebase</text>
+    <text x="16" y="156" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#38BDF8">Dynamic Reasoning</text>
+  </g>
+
+  <!-- Arrow 4 -> 5 -->
+  <g transform="translate(784, 100)">
+    <line x1="0" y1="10" x2="14" y2="10" stroke="url(#flow-arrow)" stroke-width="2" />
+    <polygon points="14,6 20,10 14,14" fill="#F59E0B" />
+  </g>
+
+  <!-- STAGE 5: DEPLOYMENT & PRODUCTION -->
+  <g transform="translate(808, 25)">
+    <rect width="128" height="170" rx="10" fill="url(#card-bg)" stroke="#F59E0B" stroke-width="1.2" stroke-opacity="0.8" />
+    <rect x="0" y="0" width="128" height="4" rx="2" fill="#F59E0B" />
+    <circle cx="22" cy="28" r="8" fill="#F59E0B" fill-opacity="0.2" />
+    <text x="22" y="32" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800" fill="#FBBF24" text-anchor="middle">5</text>
+    <text x="36" y="32" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">DEPLOY</text>
+    <line x1="12" y1="46" x2="116" y2="46" stroke="#1E293B" stroke-width="1" />
+    <text x="12" y="68" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#FBBF24">• Git &amp; GitHub</text>
+    <text x="12" y="90" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="500" fill="#94A3B8">• CI/CD Workflows</text>
+    <text x="12" y="112" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="500" fill="#94A3B8">• Automation</text>
+    <text x="12" y="134" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="500" fill="#94A3B8">• Performance</text>
+    <text x="12" y="156" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#F59E0B">Production Live</text>
+  </g>
+</svg>

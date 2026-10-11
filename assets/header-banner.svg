@@ -1,69 +1,131 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="100%" height="320">
   <defs>
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#040711" />
-      <stop offset="50%" stop-color="#081026" />
-      <stop offset="100%" stop-color="#030712" />
+    <!-- Deep Obsidian to Midnight Navy Canvas -->
+    <linearGradient id="canvas-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020308" />
+      <stop offset="35%" stop-color="#050B1B" />
+      <stop offset="70%" stop-color="#081028" />
+      <stop offset="100%" stop-color="#020409" />
     </linearGradient>
-    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00D2FF" />
-      <stop offset="40%" stop-color="#2563EB" />
-      <stop offset="80%" stop-color="#8B5CF6" />
-      <stop offset="100%" stop-color="#F59E0B" />
+
+    <!-- Luxury Edge Beam -->
+    <linearGradient id="beam-top" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D2FF" stop-opacity="0.1" />
+      <stop offset="20%" stop-color="#00D2FF" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="1" />
+      <stop offset="75%" stop-color="#8B5CF6" stop-opacity="0.9" />
+      <stop offset="90%" stop-color="#F59E0B" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00D2FF" stop-opacity="0.1" />
     </linearGradient>
-    <linearGradient id="name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+
+    <!-- Masterpiece Name Gradient -->
+    <linearGradient id="brand-name" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="45%" stop-color="#E0F2FE" />
-      <stop offset="75%" stop-color="#7DD3FC" />
-      <stop offset="100%" stop-color="#38BDF8" />
+      <stop offset="30%" stop-color="#F8FAFC" />
+      <stop offset="60%" stop-color="#BAE6FD" />
+      <stop offset="85%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#00D2FF" />
     </linearGradient>
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.35" />
+
+    <!-- Minimal Gold Foil Gradient -->
+    <linearGradient id="gold-foil" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+
+    <!-- Subtle Tech Matrix Grid -->
+    <pattern id="matrix-grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.4" />
+      <circle cx="36" cy="0" r="0.9" fill="#38BDF8" fill-opacity="0.35" />
     </pattern>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
+
+    <!-- Atmospheric Glow Filter -->
+    <filter id="ambient-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
 
-  <!-- Background -->
-  <rect width="900" height="240" rx="16" fill="url(#bg-grad)" />
-  <rect width="900" height="240" rx="16" fill="url(#grid)" />
+  <!-- Base Structure -->
+  <rect width="960" height="320" rx="18" fill="url(#canvas-bg)" />
+  <rect width="960" height="320" rx="18" fill="url(#matrix-grid)" />
 
-  <!-- Ambient Glow Orbs -->
-  <circle cx="150" cy="60" r="100" fill="#00D2FF" opacity="0.08" filter="url(#glow)" />
-  <circle cx="750" cy="180" r="120" fill="#2563EB" opacity="0.10" filter="url(#glow)" />
-  <circle cx="820" cy="50" r="80" fill="#F59E0B" opacity="0.06" filter="url(#glow)" />
+  <!-- Ambient Light Sculpting -->
+  <circle cx="140" cy="80" r="140" fill="#00D2FF" opacity="0.08" filter="url(#ambient-glow)" />
+  <circle cx="830" cy="240" r="160" fill="#2563EB" opacity="0.10" filter="url(#ambient-glow)" />
+  <circle cx="720" cy="70" r="100" fill="#8B5CF6" opacity="0.07" filter="url(#ambient-glow)" />
+  <circle cx="880" cy="60" r="70" fill="#F59E0B" opacity="0.04" filter="url(#ambient-glow)" />
 
-  <!-- Glowing Top Border Line -->
-  <rect x="0" y="0" width="900" height="3.5" rx="2" fill="url(#accent-grad)" />
-  <!-- Glowing Bottom Accent Line -->
-  <rect x="0" y="237" width="900" height="3" rx="1.5" fill="url(#accent-grad)" />
+  <!-- Precision Borders -->
+  <rect x="0" y="0" width="960" height="3.5" rx="2" fill="url(#beam-top)" />
+  <rect x="0" y="316.5" width="960" height="3.5" rx="2" fill="url(#beam-top)" />
 
-  <!-- VIP Badge -->
-  <g transform="translate(50, 32)">
-    <rect x="0" y="0" width="240" height="26" rx="13" fill="#00D2FF" fill-opacity="0.12" stroke="#00D2FF" stroke-opacity="0.45" stroke-width="1" />
-    <text x="120" y="17.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="11" font-weight="700" fill="#38BDF8" text-anchor="middle" letter-spacing="1.8">✦ VIP ARCHITECT &amp; DEVELOPER ✦</text>
+  <!-- Architectural Corner HUD Marks -->
+  <path d="M 22 40 L 22 22 L 40 22" fill="none" stroke="#00D2FF" stroke-width="2" opacity="0.85" />
+  <path d="M 938 40 L 938 22 L 920 22" fill="none" stroke="#00D2FF" stroke-width="2" opacity="0.85" />
+  <path d="M 22 280 L 22 298 L 40 298" fill="none" stroke="#00D2FF" stroke-width="2" opacity="0.85" />
+  <path d="M 938 280 L 938 298 L 920 298" fill="none" stroke="#F59E0B" stroke-width="2" opacity="0.85" />
+
+  <!-- Top Executive Badges Row -->
+  <g transform="translate(56, 36)">
+    <rect x="0" y="0" width="270" height="28" rx="14" fill="#00D2FF" fill-opacity="0.10" stroke="#00D2FF" stroke-opacity="0.45" stroke-width="1.2" />
+    <circle cx="18" cy="14" r="3.5" fill="#00D2FF" />
+    <text x="140" y="18.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="11" font-weight="700" fill="#38BDF8" text-anchor="middle" letter-spacing="1.8">✦ VIP DEVELOPER PORTFOLIO ✦</text>
   </g>
 
-  <!-- Status Pill -->
-  <g transform="translate(645, 32)">
-    <rect x="0" y="0" width="205" height="26" rx="13" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.4" stroke-width="1" />
-    <circle cx="18" cy="13" r="4.5" fill="#10B981" />
-    <text x="32" y="17" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#34D399" letter-spacing="0.6">AVAILABLE FOR PROJECTS</text>
+  <g transform="translate(686, 36)">
+    <rect x="0" y="0" width="218" height="28" rx="14" fill="#10B981" fill-opacity="0.10" stroke="#10B981" stroke-opacity="0.45" stroke-width="1.2" />
+    <circle cx="18" cy="14" r="4.5" fill="#10B981" />
+    <circle cx="18" cy="14" r="8" fill="none" stroke="#10B981" stroke-width="1" opacity="0.4" />
+    <text x="36" y="18.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#34D399" letter-spacing="0.8">AVAILABLE FOR PROJECTS</text>
   </g>
 
-  <!-- Main Headline Name -->
-  <text x="50" y="118" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="44" font-weight="900" fill="url(#name-grad)" letter-spacing="2">DANISH RASHID</text>
+  <!-- Centerpiece Title: DANISH RASHID -->
+  <text x="56" y="136" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="52" font-weight="900" fill="url(#brand-name)" letter-spacing="2.4">DANISH RASHID</text>
 
-  <!-- Professional Title Subheading -->
-  <text x="52" y="156" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="18.5" font-weight="700" fill="#60A5FA" letter-spacing="1.5">FULL STACK DEVELOPER <tspan fill="#F59E0B">✦</tspan> AI DEVELOPER</text>
+  <!-- Subtitle: FULL STACK DEVELOPER × AI DEVELOPER -->
+  <g transform="translate(58, 178)">
+    <text x="0" y="0" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="20" font-weight="800" fill="#60A5FA" letter-spacing="2.2">
+      FULL STACK DEVELOPER <tspan fill="url(#gold-foil)">×</tspan> AI DEVELOPER
+    </text>
+  </g>
 
-  <!-- Tagline -->
-  <text x="52" y="193" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#94A3B8" letter-spacing="0.3">Building modern web experiences, intelligent AI solutions &amp; scalable digital products.</text>
+  <!-- New Signature Tagline -->
+  <text x="58" y="216" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="15" font-weight="400" fill="#CBD5E1" letter-spacing="0.4">
+    “Where Full Stack Engineering Meets Artificial Intelligence.”
+  </text>
 
-  <!-- Subtle Corner Circuit Accent -->
-  <path d="M 830 155 L 855 155 L 865 165 L 865 195" fill="none" stroke="#38BDF8" stroke-width="1.5" opacity="0.4" />
-  <circle cx="830" cy="155" r="2.5" fill="#38BDF8" opacity="0.7" />
-  <circle cx="865" cy="195" r="2.5" fill="#F59E0B" opacity="0.7" />
+  <!-- Bottom Tech Telemetry Pills -->
+  <g transform="translate(58, 252)">
+    <rect x="0" y="0" width="124" height="26" rx="13" fill="#1E293B" fill-opacity="0.65" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1.2" />
+    <text x="62" y="17.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#7DD3FC" text-anchor="middle" letter-spacing="0.6">🤖 AI AGENTS</text>
+
+    <rect x="134" y="0" width="116" height="26" rx="13" fill="#1E293B" fill-opacity="0.65" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1.2" />
+    <text x="192" y="17.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#7DD3FC" text-anchor="middle" letter-spacing="0.6">⚛️ REACT 19</text>
+
+    <rect x="260" y="0" width="144" height="26" rx="13" fill="#1E293B" fill-opacity="0.65" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1.2" />
+    <text x="332" y="17.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#7DD3FC" text-anchor="middle" letter-spacing="0.6">🐍 PYTHON • FLASK</text>
+
+    <rect x="414" y="0" width="134" height="26" rx="13" fill="#1E293B" fill-opacity="0.65" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1.2" />
+    <text x="481" y="17.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#7DD3FC" text-anchor="middle" letter-spacing="0.6">🔌 RESTFUL APIS</text>
+
+    <rect x="558" y="0" width="148" height="26" rx="13" fill="#1E293B" fill-opacity="0.65" stroke="#F59E0B" stroke-opacity="0.5" stroke-width="1.2" />
+    <text x="632" y="17.5" font-family="'Segoe UI', -apple-system, sans-serif" font-size="10.5" font-weight="800" fill="#FBBF24" text-anchor="middle" letter-spacing="0.6">⚡ CLEAN ARCHITECTURE</text>
+  </g>
+
+  <!-- Right Decorative Cybernetic Network Graphic -->
+  <g transform="translate(740, 115)">
+    <path d="M 0 55 L 45 55 L 75 25 L 140 25" fill="none" stroke="#00D2FF" stroke-width="1.8" opacity="0.5" />
+    <path d="M 25 85 L 65 85 L 95 115 L 150 115" fill="none" stroke="#2563EB" stroke-width="1.8" opacity="0.5" />
+    <path d="M 50 25 L 80 25 L 105 50 L 145 50" fill="none" stroke="#8B5CF6" stroke-width="1.6" opacity="0.4" />
+    
+    <circle cx="0" cy="55" r="3" fill="#00D2FF" opacity="0.8" />
+    <circle cx="140" cy="25" r="4" fill="#00D2FF" opacity="0.95" />
+    <circle cx="150" cy="115" r="3.5" fill="#2563EB" opacity="0.85" />
+    <circle cx="145" cy="50" r="3" fill="#F59E0B" opacity="0.9" />
+
+    <polygon points="115,65 132,56 149,65 149,83 132,92 115,83" fill="#00D2FF" fill-opacity="0.14" stroke="#00D2FF" stroke-width="1.4" opacity="0.85" />
+    <text x="132" y="78" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="800" fill="#38BDF8" text-anchor="middle">AI</text>
+  </g>
 </svg>
